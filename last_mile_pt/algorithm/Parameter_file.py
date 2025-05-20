@@ -1,0 +1,16 @@
+Speed = 20
+#Max_Fare = 200
+hopOnePenalty = 10
+_range = 15
+lmPenalty = 0.40
+metroPenalty = 0.1
+k = 5 # number of results
+lm2met_trans = 300
+met2met_trans = 300
+flat_eta = 300
+time_thresh = 3*60*60
+min_walk = 0.5 #in kM
+metro_only_walk = 3 #in KM
+lmtrans = 15
+parking_fare_flat = 30
+path_diff = 10
