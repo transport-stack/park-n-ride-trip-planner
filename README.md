@@ -28,22 +28,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Add the static folder in root directory. Ask admin for static folder zip file.
-
-### End points for directions
-1. Static Bus Directions (Zero-Hop + One-Hop):
-```
-/get_directions_bus?src=SOURCE&dest=DESTINATION&time=TIME
-```
-Path:
-```
-bus/algo/static_result.py
-```
-2. Metro Directions (All)
-```
-/get_directions_metro?src=SOURCE&dest=DESTINATION&time=TIME
-```
-Path:
-```
-metro/algo/k_shortest.py
-```
+Unzip the static.zip to static folder in root directory.
