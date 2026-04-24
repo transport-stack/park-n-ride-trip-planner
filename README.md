@@ -1,26 +1,9 @@
 ## SETUP
 
 ```bash
-git clone https://gitlab.com/chartrmobility/directions
+git clone https://github.com/transport-stack/park-n-ride-trip-planner.git
 
-cd directions
-
-virtualenv venv
-source venv/bin/activate
-
-pip install -r requirements.txt
-```
-
-now download static files from cloud or copy your own copy
-```
-curl https://static-02.sgp1.digitaloceanspaces.com/directions-files/zero_hop.7z --output static/meta/zero_hop.7z
-=======
-## SETUP
-
-```bash
-git clone https://gitlab.com/chartrmobility/directions
-
-cd directions
+cd park-n-ride-trip-planner
 
 virtualenv venv
 source venv/bin/activate
@@ -28,4 +11,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Unzip the static.zip to static folder in root directory.
+Unzip the static files to the `static` folder in the root directory.
